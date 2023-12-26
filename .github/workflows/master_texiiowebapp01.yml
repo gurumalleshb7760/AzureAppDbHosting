@@ -19,7 +19,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '3.1'
+          dotnet-version: '7.x'
           include-prerelease: true
 
       - name: Build with dotnet
@@ -54,4 +54,4 @@ jobs:
           app-name: 'texiiowebapp01'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BAC3B550403A40F289D35F236F0774F5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E05D97BC7F2B46E49B728CB6CE0F58BA }}
