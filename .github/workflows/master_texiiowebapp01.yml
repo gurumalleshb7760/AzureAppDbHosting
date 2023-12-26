@@ -54,4 +54,4 @@ jobs:
           app-name: 'texiiowebapp01'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0E3F0184D5764CDF8A26EFC6FB44E9C0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BAC3B550403A40F289D35F236F0774F5 }}
